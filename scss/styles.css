@@ -167,6 +167,10 @@ form button {
   margin-top: 1rem;
   font-size: 2rem;
   font-weight: 300;
+  width: 350px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
 }
 
 #benefits .benefits-row {

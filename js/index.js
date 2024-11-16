@@ -15,13 +15,13 @@ async function getData() {
         }
         //const randData = (min, max) => Math.floor(Math.random()*(max - min + 1) + min);
         //const randIndex = randData(1, productsSliced.length)
-        for(i = 0; i < 3; i++){
+        for(i = 2; i < 4; i++){
         if(element.category == "electronics" && element.id >= generarNumeroAleatorio()  && element.id <= generarNumeroAleatorio() ){
                 const box = document.createRange().createContextualFragment(`
                     
                     <div class="box box-${i}">
                         <img src="${element.image}" alt="">
-                        <h3>Honeycomb</h3>
+                        <h3>${element.title}</h3>
                     </div>
                     
                     `)
