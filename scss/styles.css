@@ -152,13 +152,18 @@ form button {
 #projects .project-row {
   text-align: center;
 }
-#projects .project-row img {
-  display: block;
+#projects .project-row .box {
+  width: 90%;
+  margin: 0 auto;
+}
+#projects .project-row .box img {
+  width: 100%;
   margin: 0 auto;
   text-align: center;
   border-radius: 10px;
+  height: 30vh;
 }
-#projects .project-row h3 {
+#projects .project-row .box h3 {
   margin-top: 1rem;
   font-size: 2rem;
   font-weight: 300;
