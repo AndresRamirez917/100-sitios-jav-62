@@ -1,0 +1,218 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  font-family: "Montserrat", sans-serif;
+  scroll-behavior: smooth;
+}
+
+.container {
+  max-width: 1300px;
+  padding: 30px 0;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+ul {
+  list-style: none;
+}
+
+.flex {
+  display: flex;
+  flex: 1;
+  gap: 50px;
+}
+
+.main-width {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.btn {
+  text-align: center;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+}
+
+.title {
+  font-size: 3rem;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 1rem;
+  font-weight: bolder;
+}
+
+.subtitle {
+  text-align: left;
+  text-transform: capitalize;
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin: 4rem 0 2rem 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+form .form-group {
+  margin-bottom: 1rem;
+}
+form .form-control {
+  background: #e2e2e2;
+  display: block;
+  width: 100%;
+  padding: 1rem;
+  border-radius: 5px;
+  border: none;
+}
+form button {
+  display: inline-block;
+  width: 100%;
+  background: #000;
+  margin-bottom: 2rem;
+}
+
+::-moz-placeholder {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 600;
+  content: "\f007";
+  text-align: right;
+}
+
+::placeholder {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 600;
+  content: "\f007";
+  text-align: right;
+}
+
+#mainheader {
+  background: url("/images/showcase.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 100px;
+}
+#mainheader .navbar .logo {
+  font-size: 2rem;
+  color: red;
+}
+#mainheader .navbar ul {
+  display: flex;
+  margin-top: 0.8rem;
+}
+#mainheader .navbar ul li {
+  display: inline-block;
+  margin-left: 1rem;
+}
+#mainheader .navbar .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+#mainheader .showcase-content {
+  margin-top: 8rem;
+}
+#mainheader .showcase-content p {
+  width: 90%;
+  font-size: 1.2rem;
+  color: #fff;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 2rem;
+}
+#mainheader .showcase-content a {
+  width: 20%;
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 2rem;
+  background: rgb(32, 170, 208);
+}
+
+#projects .projects-content {
+  text-align: left;
+}
+#projects .projects-content p {
+  margin-bottom: 1rem;
+}
+#projects .project-row {
+  text-align: center;
+}
+#projects .project-row img {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  border-radius: 10px;
+}
+#projects .project-row h3 {
+  margin-top: 1rem;
+  font-size: 2rem;
+  font-weight: 300;
+}
+
+#benefits .benefits-row {
+  text-align: justify;
+}
+#benefits .benefits-row img {
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  width: 40%;
+  margin-bottom: 2rem;
+}
+#benefits .benefits-row p {
+  margin-bottom: 3rem;
+}
+#benefits .innovations {
+  text-align: center;
+}
+#benefits .innovations h2 {
+  font-size: 2rem;
+  font-weight: 300;
+  margin-bottom: 2rem;
+}
+
+#contact .contact-content p {
+  margin-bottom: 2rem;
+}
+#contact .contact-row {
+  margin: 0 auto;
+  text-align: center;
+  gap: 200px;
+}
+#contact .contact-row h2 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  font-weight: 400;
+}
+
+#message {
+  width: 70%;
+  margin: 0 auto;
+}
+#message form .flex {
+  display: flex;
+  gap: 20px;
+}
+#message form .flex-box-1 {
+  flex: 1;
+}
+
+#footer {
+  text-align: center;
+  padding: 3rem 0;
+}/*# sourceMappingURL=styles.css.map */
