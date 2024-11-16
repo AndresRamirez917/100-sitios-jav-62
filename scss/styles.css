@@ -162,6 +162,7 @@ form button {
   text-align: center;
   border-radius: 10px;
   height: 30vh;
+  margin-bottom: 1rem;
 }
 #projects .project-row .box h3 {
   margin-top: 1rem;
@@ -171,6 +172,8 @@ form button {
   text-overflow: ellipsis;
   overflow: hidden;
   white-space: nowrap;
+  margin: 0 auto;
+  margin-bottom: 2rem;
 }
 
 #benefits .benefits-row {
